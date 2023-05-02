@@ -1,0 +1,20 @@
+spring :
+  jpa :
+    hibernate :
+      show-sql : true
+  datasource :
+    driver-class-name : com.mysql.cj.jdbc.Driver
+    url : jdbc:mysql://localhost:3306/bookList?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username : root
+    password : 12345
+  second-datasource :
+    driver-class-name : com.mysql.cj.jdbc.Driver
+    url : jdbc:mysql://localhost:3306/staffList?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username : root
+    password : 12345
+  third-datasource :
+    driver-class-name : com.mysql.cj.jdbc.Driver
+    url : jdbc:mysql://localhost:3306/inquiryList?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username : root
+    password : 12345
+    
